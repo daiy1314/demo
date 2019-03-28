@@ -20,4 +20,9 @@ public class IndexAction {
     public String index2() {
         return "Hello World";
     }
+
+    @RequestMapping(value = "/hello")
+    public String indexTest2() {
+        return "Hello World";
+    }
 }
