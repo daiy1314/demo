@@ -10,4 +10,9 @@ public class IndexAction {
     public String index() {
         return "Hello World";
     }
+
+    @RequestMapping(value = "/hello")
+    public String index1() {
+        return "Hello World";
+    }
 }
